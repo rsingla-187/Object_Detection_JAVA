@@ -1,0 +1,55 @@
+
+package org.tensorflow.codelabs.objectdetection;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+
+public class Resultlist {
+
+    @SerializedName("Code")
+    @Expose
+    private Integer code;
+    @SerializedName("Status")
+    @Expose
+    private String status;
+    @SerializedName("UniqueId")
+    @Expose
+    private String uniqueId;
+    @SerializedName("Data")
+    @Expose
+    private Data data;
+
+    public Integer getCode() {
+        return code;
+    }
+
+    public void setCode(Integer code) {
+        this.code = code;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getUniqueId() {
+        return uniqueId;
+    }
+
+    public void setUniqueId(String uniqueId) {
+        this.uniqueId = uniqueId;
+    }
+
+    public Data getData() {
+        return data;
+    }
+
+    public void setData(Data data) {
+        this.data = data;
+    }
+
+}

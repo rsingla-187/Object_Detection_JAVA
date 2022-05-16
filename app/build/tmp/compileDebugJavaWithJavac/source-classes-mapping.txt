@@ -1,0 +1,13 @@
+org/tensorflow/codelabs/objectdetection/BuildConfig.java
+ org.tensorflow.codelabs.objectdetection.BuildConfig
+org/tensorflow/codelabs/objectdetection/ImageUploadingRetrofitClient.java
+ org.tensorflow.codelabs.objectdetection.ImageUploadingRetrofitClient
+org/tensorflow/codelabs/objectdetection/Data.java
+ org.tensorflow.codelabs.objectdetection.Data
+org/tensorflow/codelabs/objectdetection/Resultlist.java
+ org.tensorflow.codelabs.objectdetection.Resultlist
+org/tensorflow/codelabs/objectdetection/CordinatesData.java
+ org.tensorflow.codelabs.objectdetection.CordinatesData
+ org.tensorflow.codelabs.objectdetection.CordinatesData$1
+org/tensorflow/codelabs/objectdetection/ImageUploadingAPI.java
+ org.tensorflow.codelabs.objectdetection.ImageUploadingAPI
